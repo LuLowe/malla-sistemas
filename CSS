@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva - Ingeniería en Sistemas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Ingeniería en Sistemas (UTN FRC)</h1>
+
+  <div id="malla">
+    <!-- Ejemplo: Primer Año -->
+    <section class="anio" data-anio="1">
+      <h2>1er Año</h2>
+
+      <div class="cuatri" data-cuatri="1">
+        <h3>1er Cuatrimestre</h3>
+        <div class="materia" data-id="5" data-correlativas="" title="Lógica y Estructuras Discretas">Lógica y Estructuras Discretas</div>
+        <div class="materia" data-id="8" data-correlativas="" title="Sistemas y Procesos de Negocio">Sistemas y Procesos de Negocio</div>
+      </div>
+
+      <div class="cuatri" data-cuatri="2">
+        <h3>2do Cuatrimestre</h3>
+        <div class="materia" data-id="7" data-correlativas="" title="Arquitectura de Computadoras">Arquitectura de Computadoras</div>
+        <div class="materia" data-id="11" data-correlativas="" title="Ingeniería y Sociedad">Ingeniería y Sociedad</div>
+      </div>
+
+      <div class="cuatri" data-cuatri="A">
+        <h3>Anuales</h3>
+        <div class="materia" data-id="1" data-correlativas="" title="Análisis Matemático 1">Análisis Matemático 1</div>
+        <div class="materia" data-id="2" data-correlativas="" title="Álgebra y Geometría Analítica">Álgebra y Geometría Analítica</div>
+        <div class="materia" data-id="3" data-correlativas="" title="Física 1">Física 1</div>
+        <div class="materia" data-id="4" data-correlativas="" title="Inglés 1">Inglés 1</div>
+        <div class="materia" data-id="6" data-correlativas="" title="Algoritmos y Estructuras de Datos">Algoritmos y Estructuras de Datos</div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
